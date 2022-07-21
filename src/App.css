@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html{
+  background-color: #3a032c;
+}
+
+.App{
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 10px;
+  background-color: #3a032c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-logo{
+  position: absolute;
+  margin-top: 200px;
+  margin-right: 900px;
+}
+
+.contenedor-calculadora{
+  width: 400px;
+  height: 600px;
+  padding: 14px;
+  background-color: #61104d;
+  border-radius: 20px;
+  border: solid 1px #a74c90;
+  
+}
+
+.logo{
+  height: 500px;
+  width: auto;
+}
+
+.fila{
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
